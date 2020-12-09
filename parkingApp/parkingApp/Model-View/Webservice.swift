@@ -17,7 +17,7 @@ class Webservice:ObservableObject {
     func simCall() {
         
         let session = URLSession.shared
-        let url = URL(string: "http://192.168.56.104:4242/adapter/objects/floorSensor/properties/state")!
+        let url = URL(string: "http://DESTINATION_IPADDRESS:4242/adapter/objects/floorSensor/properties/state")!
 //vorher war als onch visualIndicator eingestellt in der URI
         let task = session.dataTask(with: url) { data, response, error in
             if error != nil || data == nil {
