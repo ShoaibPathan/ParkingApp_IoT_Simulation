@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70046CB923C625E800472356 /* SendMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70046CB823C625E800472356 /* SendMail.swift */; };
+		70552ADF238E4D5100A75A5F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70552ADE238E4D5100A75A5F /* Webservice.swift */; };
+		7058E125238D18D300AC367F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058E124238D18D300AC367F /* AppDelegate.swift */; };
+		7058E127238D18D300AC367F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058E126238D18D300AC367F /* SceneDelegate.swift */; };
+		7058E129238D18D300AC367F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058E128238D18D300AC367F /* ContentView.swift */; };
+		7058E12B238D18D500AC367F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7058E12A238D18D500AC367F /* Assets.xcassets */; };
+		7058E12E238D18D500AC367F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7058E12D238D18D500AC367F /* Preview Assets.xcassets */; };
+		7058E131238D18D500AC367F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7058E12F238D18D500AC367F /* LaunchScreen.storyboard */; };
+		7058E139238D26E400AC367F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058E138238D26E400AC367F /* MapView.swift */; };
+		7058E13B238D2A8F00AC367F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7058E13A238D2A8F00AC367F /* WelcomeView.swift */; };
+		7071E81323C5C99100B3C803 /* DecodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7071E81223C5C99100B3C803 /* DecodeModel.swift */; };
+		7071E81523C5E60300B3C803 /* SendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7071E81423C5E60300B3C803 /* SendModel.swift */; };
+		707272DA2395283300F13CE3 /* MTSlideToOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707272D92395283300F13CE3 /* MTSlideToOpen.swift */; };
+		707272DC23952B5900F13CE3 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707272DB23952B5900F13CE3 /* ActivityIndicator.swift */; };
+		70899D37238D6C4500544DB4 /* ParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70899D36238D6C4500544DB4 /* ParkView.swift */; };
+		70899D3B238D6C7100544DB4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70899D3A238D6C7100544DB4 /* InfoView.swift */; };
+		70A307A623969D6200588994 /* ParkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A307A523969D6200588994 /* ParkService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70046CB823C625E800472356 /* SendMail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMail.swift; sourceTree = "<group>"; };
+		70552ADE238E4D5100A75A5F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		7058E121238D18D300AC367F /* Park&Slide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park&Slide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7058E124238D18D300AC367F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7058E126238D18D300AC367F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7058E128238D18D300AC367F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7058E12A238D18D500AC367F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7058E12D238D18D500AC367F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7058E130238D18D500AC367F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7058E132238D18D500AC367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7058E138238D26E400AC367F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7058E13A238D2A8F00AC367F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7071E81223C5C99100B3C803 /* DecodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeModel.swift; sourceTree = "<group>"; };
+		7071E81423C5E60300B3C803 /* SendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendModel.swift; sourceTree = "<group>"; };
+		707272D92395283300F13CE3 /* MTSlideToOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSlideToOpen.swift; sourceTree = "<group>"; };
+		707272DB23952B5900F13CE3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		70899D36238D6C4500544DB4 /* ParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkView.swift; sourceTree = "<group>"; };
+		70899D3A238D6C7100544DB4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		70A307A523969D6200588994 /* ParkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7058E11E238D18D300AC367F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7058E118238D18D300AC367F = {
+			isa = PBXGroup;
+			children = (
+				7058E123238D18D300AC367F /* parkingApp */,
+				7058E122238D18D300AC367F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7058E122238D18D300AC367F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7058E121238D18D300AC367F /* Park&Slide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7058E123238D18D300AC367F /* parkingApp */ = {
+			isa = PBXGroup;
+			children = (
+				7071E81123C5C90E00B3C803 /* Model */,
+				70899D3E238D6DDE00544DB4 /* Model-View */,
+				70899D35238D669900544DB4 /* Views */,
+				7058E12A238D18D500AC367F /* Assets.xcassets */,
+				7058E132238D18D500AC367F /* Info.plist */,
+				70046CB823C625E800472356 /* SendMail.swift */,
+				70899D34238D657800544DB4 /* Standard */,
+				7058E12C238D18D500AC367F /* Preview Content */,
+			);
+			path = parkingApp;
+			sourceTree = "<group>";
+		};
+		7058E12C238D18D500AC367F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7058E12D238D18D500AC367F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7071E81123C5C90E00B3C803 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7071E81223C5C99100B3C803 /* DecodeModel.swift */,
+				7071E81423C5E60300B3C803 /* SendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70899D34238D657800544DB4 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				7058E124238D18D300AC367F /* AppDelegate.swift */,
+				7058E126238D18D300AC367F /* SceneDelegate.swift */,
+				7058E12F238D18D500AC367F /* LaunchScreen.storyboard */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		70899D35238D669900544DB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7058E13A238D2A8F00AC367F /* WelcomeView.swift */,
+				70899D36238D6C4500544DB4 /* ParkView.swift */,
+				70899D3A238D6C7100544DB4 /* InfoView.swift */,
+				7058E138238D26E400AC367F /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70899D3E238D6DDE00544DB4 /* Model-View */ = {
+			isa = PBXGroup;
+			children = (
+				7058E128238D18D300AC367F /* ContentView.swift */,
+				70552ADE238E4D5100A75A5F /* Webservice.swift */,
+				70A307A523969D6200588994 /* ParkService.swift */,
+				707272D92395283300F13CE3 /* MTSlideToOpen.swift */,
+				707272DB23952B5900F13CE3 /* ActivityIndicator.swift */,
+			);
+			path = "Model-View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7058E120238D18D300AC367F /* parkingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7058E135238D18D500AC367F /* Build configuration list for PBXNativeTarget "parkingApp" */;
+			buildPhases = (
+				7058E11D238D18D300AC367F /* Sources */,
+				7058E11E238D18D300AC367F /* Frameworks */,
+				7058E11F238D18D300AC367F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parkingApp;
+			productName = parkingApp;
+			productReference = 7058E121238D18D300AC367F /* Park&Slide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7058E119238D18D300AC367F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = hypeTech;
+				TargetAttributes = {
+					7058E120238D18D300AC367F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7058E11C238D18D300AC367F /* Build configuration list for PBXProject "parkingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7058E118238D18D300AC367F;
+			productRefGroup = 7058E122238D18D300AC367F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7058E120238D18D300AC367F /* parkingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7058E11F238D18D300AC367F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7058E131238D18D500AC367F /* LaunchScreen.storyboard in Resources */,
+				7058E12E238D18D500AC367F /* Preview Assets.xcassets in Resources */,
+				7058E12B238D18D500AC367F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7058E11D238D18D300AC367F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7058E13B238D2A8F00AC367F /* WelcomeView.swift in Sources */,
+				7058E125238D18D300AC367F /* AppDelegate.swift in Sources */,
+				707272DC23952B5900F13CE3 /* ActivityIndicator.swift in Sources */,
+				70552ADF238E4D5100A75A5F /* Webservice.swift in Sources */,
+				7058E139238D26E400AC367F /* MapView.swift in Sources */,
+				70046CB923C625E800472356 /* SendMail.swift in Sources */,
+				7071E81323C5C99100B3C803 /* DecodeModel.swift in Sources */,
+				7058E127238D18D300AC367F /* SceneDelegate.swift in Sources */,
+				70899D37238D6C4500544DB4 /* ParkView.swift in Sources */,
+				7071E81523C5E60300B3C803 /* SendModel.swift in Sources */,
+				707272DA2395283300F13CE3 /* MTSlideToOpen.swift in Sources */,
+				70899D3B238D6C7100544DB4 /* InfoView.swift in Sources */,
+				70A307A623969D6200588994 /* ParkService.swift in Sources */,
+				7058E129238D18D300AC367F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7058E12F238D18D500AC367F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7058E130238D18D500AC367F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7058E133238D18D500AC367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7058E134238D18D500AC367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7058E136238D18D500AC367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"parkingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C9FAB68D85;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = parkingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hypeTech.parkingApp;
+				PRODUCT_NAME = "Park&Slide";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7058E137238D18D500AC367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"parkingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C9FAB68D85;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = parkingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hypeTech.parkingApp;
+				PRODUCT_NAME = "Park&Slide";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7058E11C238D18D300AC367F /* Build configuration list for PBXProject "parkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7058E133238D18D500AC367F /* Debug */,
+				7058E134238D18D500AC367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7058E135238D18D500AC367F /* Build configuration list for PBXNativeTarget "parkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7058E136238D18D500AC367F /* Debug */,
+				7058E137238D18D500AC367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7058E119238D18D300AC367F /* Project object */;
+}
