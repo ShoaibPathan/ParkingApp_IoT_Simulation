@@ -10,7 +10,7 @@ import Foundation
 
 func simPark_visualIndicator(){
                   let sessionPark = URLSession.shared
-                  let urlPark = URL(string: "http://192.168.56.104:4242/adapter/objects/visualIndicator/properties/state")!
+                  let urlPark = URL(string: "http://DESTINATION_IPADDRESS:4242/adapter/objects/visualIndicator/properties/state")!
                 
                   var requestPark = URLRequest(url: urlPark)
                   requestPark.httpMethod = "PUT"
@@ -29,7 +29,7 @@ func simPark_visualIndicator(){
 
 func simPark_floorSensor(){
               let sessionPark = URLSession.shared
-              let urlPark = URL(string: "http://192.168.56.104:4242/adapter/objects/floorSensor/properties/state")!
+              let urlPark = URL(string: "http://DESTINATION_IPADDRESS:4242/adapter/objects/floorSensor/properties/state")!
             
               var requestPark = URLRequest(url: urlPark)
               requestPark.httpMethod = "PUT"
